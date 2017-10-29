@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+
+</style>
+<title style="text-align:center; border:2px solid red">Complete Form</title>
+</head>
+<body style="background-image:url('ComputerImage.jpg')">
+
+<p style="text-align:center;">If you want to contact me, please fill out the below form with your details:</p>
+<form>
+<fieldset style="text-align:center">
+  <legend>Personal information:</legend>
+  First name:<br>
+  <input type="text" name="First Name">
+  <br>
+  Last name:<br>
+  <input type="text" name="Surname"><br>
+    E-mail:<br>
+  <input type="email" name="email">
+  <br>
+  <br>
+  Rate my system builds:
+  <br>
+  CPU:
+   <select name="CPU">
+    <option value="cpu">Budget CPU - Intel Pentium G4560</option>
+    <option value="motherboard">Enthusiast CPU - Intel Core i5-7600</option>
+    <option value="gpu" selected>High End CPU - Intel Core i7-7700K - </option>
+  </select>
+  Rating:
+     <select name="Rate my CPU">
+    <option value="Poor">Poor</option>
+    <option value="Average" selected>Average</option>
+    <option value="Excellent">Excellent</option>
+  </select>
+  <br>
+  <br>
+   GPU:
+   <select name="GPU">
+    <option value="cpu">Budget GPU - Nvidia GTX 1050 TI 4GB</option>
+    <option value="motherboard">Enthusiast GPU - Nvidia GeForce GTX 1070 8GB</option>
+    <option value="gpu" selected>High End GPU - Nvidia GeForce GTX 1080 8GB</option>
+  </select>
+  Rating:
+     <select name="Rate my GPU">
+    <option value="Poor">Poor</option>
+    <option value="Average" selected>Average</option>
+    <option value="Excellent">Excellent</option>
+  </select>
+  <br><br>
+  <br><br>
+  <textarea name="Query re Building a PC" rows="20" cols="50">Insert text here.</textarea>
+  <br>
+  <br><br>
+  <input type="submit" value="Submit">
+</fieldset>
+</form>
+</body>
+</html>
